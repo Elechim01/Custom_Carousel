@@ -13,6 +13,10 @@
 		C42B64AD26333AC900126947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B649826333ABC00126947 /* ContentView.swift */; };
 		C42B64AE26333AC900126947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42B649926333AC900126947 /* Assets.xcassets */; };
 		C42B64AF26333AC900126947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42B649926333AC900126947 /* Assets.xcassets */; };
+		C42B64BC26333B1000126947 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B64BB26333B1000126947 /* Trip.swift */; };
+		C42B64C326333D3000126947 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B64C226333D3000126947 /* HomeView.swift */; };
+		C4E59E6326335E9100A08E45 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E59E6226335E9100A08E45 /* PageControl.swift */; };
+		C4E59E672633611E00A08E45 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E59E662633611E00A08E45 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C42B64A626333AC900126947 /* Custom_Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Custom_Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42B64A826333AC900126947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C42B64A926333AC900126947 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C42B64BB26333B1000126947 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		C42B64C226333D3000126947 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C4E59E6226335E9100A08E45 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		C4E59E662633611E00A08E45 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,8 @@
 		C42B649626333ABC00126947 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C42B64C126333D1A00126947 /* View */,
+				C42B64BA26333AFE00126947 /* Model */,
 				C42B649726333ABC00126947 /* Custom_CarouselApp.swift */,
 				C42B649826333ABC00126947 /* ContentView.swift */,
 				C42B649926333AC900126947 /* Assets.xcassets */,
@@ -88,6 +98,24 @@
 				C42B64A926333AC900126947 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		C42B64BA26333AFE00126947 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C42B64BB26333B1000126947 /* Trip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42B64C126333D1A00126947 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C42B64C226333D3000126947 /* HomeView.swift */,
+				C4E59E6226335E9100A08E45 /* PageControl.swift */,
+				C4E59E662633611E00A08E45 /* CustomShape.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E59E6326335E9100A08E45 /* PageControl.swift in Sources */,
+				C42B64BC26333B1000126947 /* Trip.swift in Sources */,
+				C4E59E672633611E00A08E45 /* CustomShape.swift in Sources */,
+				C42B64C326333D3000126947 /* HomeView.swift in Sources */,
 				C42B64AC26333AC900126947 /* ContentView.swift in Sources */,
 				C42B64AA26333AC900126947 /* Custom_CarouselApp.swift in Sources */,
 			);
